@@ -1,0 +1,23 @@
+[project]
+name = "u-richardw-github-io"
+version = "0.0.1"
+description = "intial website"
+authors = [
+    {name = "u-richardw",email = "107226826+u-richardw@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "numpy (<2.3)",
+    "pandas (<3)",
+    "matplotlib (<3.11)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=7.0.0,<8.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "u_richardw"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
