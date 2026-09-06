@@ -5,3 +5,6 @@ title: "Richard Wu"
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+![](./images/samoyed.jpg){width = 75% fig-align = center} 
