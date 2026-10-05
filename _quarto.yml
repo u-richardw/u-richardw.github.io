@@ -4,10 +4,13 @@ project:
 website:
   title: "Richard Wu"
   navbar:
-    left:
+      left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About You
+      - href: projects.qmd
+        text: Projects
       - href: cv.qmd
         text: CV
       - href: contact.qmd
