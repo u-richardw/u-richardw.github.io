@@ -1,10 +1,43 @@
 ---
 title: "Richard Wu"
+pagetitle: "Richard Wu | Business Analytics Portfolio"
+toc: false
+format:
+  html:
+    page-layout: full
+    css: [styles.css, about.css, home.css]
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-
-![](./images/samoyed.jpg){width = 75% fig-align = center} 
+```{=html}
+<div class="about-portfolio home-portfolio">
+  <section class="home-hero" aria-labelledby="home-heading">
+    <div class="home-copy">
+      <p class="eyebrow"><span class="status-dot"></span> RICHARD WU / BUSINESS ANALYTICS</p>
+      <h1 id="home-heading">From raw data<br>to <span>real insight.</span></h1>
+      <p class="home-lead">Good decisions start with better questions.</p>
+      <p class="home-description">I'm Richard, a Boston University student exploring how analytics, big data, and cloud computing can help solve business problems. Welcome to my corner of the data world.</p>
+      <div class="home-actions"><a class="portfolio-button" href="about.html">Meet Richard <span aria-hidden="true">↗</span></a><a class="home-secondary" href="#explore">Explore my focus <span aria-hidden="true">↓</span></a></div>
+      <div class="home-caption"><span aria-hidden="true">✳</span> Learning by doing. Sharing along the way.</div>
+    </div>
+    <div class="insight-panel" role="img" aria-label="Conceptual illustration showing a path from raw data through exploration to a useful insight">
+      <div class="panel-label"><span>A WAY OF THINKING</span><span class="panel-badge">DATA → DECISION</span></div>
+      <div class="data-stage"><span class="stage-label">01 / THE INPUT</span><div class="data-points" aria-hidden="true"><span>001</span><span>011</span><span>101</span><span>110</span><span>010</span><span>100</span><span>111</span><span>001</span></div><p>Start with the evidence.</p></div>
+      <div class="flow-connector" aria-hidden="true"><span></span>↓<span></span></div>
+      <div class="pattern-stage"><span class="stage-label">02 / THE EXPLORATION</span><svg viewBox="0 0 350 95" aria-hidden="true"><path d="M5 72H345M5 42H345M5 12H345" stroke="#c8d5bd" stroke-dasharray="3 6"/><path d="M10 77L55 55L100 65L145 31L190 44L235 19L280 27L335 8" fill="none" stroke="#476c40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g fill="#476c40"><circle cx="10" cy="77" r="4"/><circle cx="55" cy="55" r="4"/><circle cx="100" cy="65" r="4"/><circle cx="145" cy="31" r="4"/><circle cx="190" cy="44" r="4"/><circle cx="235" cy="19" r="4"/><circle cx="280" cy="27" r="4"/><circle cx="335" cy="8" r="4"/></g></svg><p>Look for the meaningful pattern.</p></div>
+      <div class="flow-connector" aria-hidden="true"><span></span>↓<span></span></div>
+      <div class="insight-stage"><div><span class="stage-label">03 / THE OUTCOME</span><h2>A clearer next step.</h2></div><span class="insight-arrow" aria-hidden="true">↗</span></div>
+      <p class="diagram-note">An illustration of the process, from question to clarity.</p>
+    </div>
+  </section>
+  <div class="home-ribbon"><span>CURIOUS MIND.</span><span aria-hidden="true">✳</span><span>PRACTICAL QUESTIONS.</span><span aria-hidden="true">✳</span><span>THOUGHTFUL ANALYSIS.</span></div>
+  <section class="home-explore" id="explore" aria-labelledby="explore-heading">
+    <div class="section-heading"><div><p class="eyebrow">THE INTERSECTION OF BUSINESS & TECHNOLOGY</p><h2 id="explore-heading">Three directions.<br>One connected perspective.</h2></div><p>What I'm learning—and why it matters.</p></div>
+    <div class="home-focus-grid">
+      <a class="focus-card" href="about.html#my-toolkit"><div class="focus-card-top"><span class="focus-symbol" aria-hidden="true">{ }</span><span class="focus-index">01</span></div><h3>Understand the data.</h3><p>Build a technical foundation with Python, SQL, and Spark. Explore patterns and ask what the evidence supports.</p><span class="focus-link">Explore my toolkit <span aria-hidden="true">↗</span></span></a>
+      <a class="focus-card" href="about.html#story-heading"><div class="focus-card-top"><span class="focus-symbol" aria-hidden="true">◎</span><span class="focus-index">02</span></div><h3>Connect it to business.</h3><p>Keep the real question in view. Consider how an analysis can help explain performance, operations, or customer behavior.</p><span class="focus-link">Get to know my perspective <span aria-hidden="true">↗</span></span></a>
+      <a class="focus-card" href="about.html#approach-heading"><div class="focus-card-top"><span class="focus-symbol" aria-hidden="true">↗</span><span class="focus-index">03</span></div><h3>Make it make sense.</h3><p>Bring findings to life through clear explanations and useful visuals, with room for uncertainty and better questions.</p><span class="focus-link">See how I think <span aria-hidden="true">↗</span></span></a>
+    </div>
+  </section>
+  <section class="home-note" aria-labelledby="note-heading"><div class="note-mark" aria-hidden="true">RW<span>.</span></div><div><p class="eyebrow">A PORTFOLIO, A WORK IN PROGRESS</p><h2 id="note-heading">Learning is the throughline.</h2><p>This space brings together my interests in analytics and the thinking behind my work. I'm building toward a career where technical curiosity meets practical business impact.</p><a class="note-link" href="about.html#career-heading">More about my goals <span aria-hidden="true">↗</span></a></div></section>
+  <footer class="about-footer"><span>RICHARD WU</span><p>Built with curiosity. Powered by Quarto.</p><a href="about.html">About Richard ↗</a></footer>
+</div>
+```
