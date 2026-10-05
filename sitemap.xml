@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://u-richardw.github.io/about.html</loc>
-    <lastmod>2026-10-05T03:29:56.126Z</lastmod>
+    <loc>https://u-richardw.github.io/contact.html</loc>
+    <lastmod>2026-10-05T03:58:31.815Z</lastmod>
+  </url>
+  <url>
+    <loc>https://u-richardw.github.io/project.html</loc>
+    <lastmod>2026-10-05T03:58:31.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://u-richardw.github.io/projects.html</loc>
+    <lastmod>2026-10-05T03:58:31.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://u-richardw.github.io/cv.html</loc>
+    <lastmod>2026-10-05T03:58:31.815Z</lastmod>
   </url>
   <url>
     <loc>https://u-richardw.github.io/index.html</loc>
-    <lastmod>2026-10-05T03:29:56.126Z</lastmod>
+    <lastmod>2026-10-05T03:58:31.816Z</lastmod>
+  </url>
+  <url>
+    <loc>https://u-richardw.github.io/about.html</loc>
+    <lastmod>2026-10-05T03:58:31.815Z</lastmod>
   </url>
 </urlset>
