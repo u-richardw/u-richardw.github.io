@@ -1,5 +1,59 @@
 ---
-title: "About"
+title: "About You"
+pagetitle: "About Richard Wu"
+toc: false
+format:
+  html:
+    page-layout: full
+    css: [styles.css, about.css]
 ---
-
-About this site
+```{=html}
+<div class="about-portfolio">
+  <section class="intro" aria-labelledby="intro-heading">
+    <div class="intro-copy">
+      <p class="eyebrow"><span class="status-dot"></span> THE PERSON BEHIND THE DATA</p>
+      <h1 id="intro-heading">Hi, I'm Richard.<br>I connect the dots.</h1>
+      <p class="intro-description">Between data and decisions.<br>Between a good question and a useful answer.</p>
+      <p class="intro-detail">I'm a Boston University student exploring business analytics, big data, and cloud computing. I like making complex information easier to understand—and easier to act on.</p>
+      <a class="portfolio-button" href="#my-toolkit">Explore my interests <span aria-hidden="true">↗</span></a>
+      <div class="intro-tags"><span>Boston University</span><span>Business analytics</span><span>Always learning</span></div>
+    </div>
+    <div class="signal-art" role="img" aria-label="Abstract illustration of scattered data points becoming a connected pattern">
+      <div class="art-topline"><span>CONNECTING THE DOTS</span><span aria-hidden="true">↗</span></div>
+      <svg class="signal-svg" viewBox="0 0 440 400" aria-hidden="true">
+        <defs>
+          <pattern id="dot-grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#48584b" opacity=".38"/></pattern>
+          <linearGradient id="signal-gradient" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#91b99e"/><stop offset="1" stop-color="#ddf49b"/></linearGradient>
+        </defs>
+        <rect width="440" height="400" fill="url(#dot-grid)"/>
+        <circle cx="235" cy="195" r="143" fill="none" stroke="#44564b" stroke-dasharray="3 9"/>
+        <circle cx="235" cy="195" r="99" fill="none" stroke="#44564b"/>
+        <path d="M48 305L112 245L174 273L235 180L298 211L374 87" fill="none" stroke="url(#signal-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M112 245L148 106L235 180L342 308L298 211L374 87M174 273L342 308M148 106L374 87" fill="none" stroke="#9ac4ab" stroke-opacity=".27" stroke-width="1.5"/>
+        <g fill="#ddf49b"><circle cx="48" cy="305" r="6"/><circle cx="112" cy="245" r="8"/><circle cx="174" cy="273" r="6"/><circle cx="235" cy="180" r="11"/><circle cx="298" cy="211" r="7"/><circle cx="374" cy="87" r="9"/></g>
+        <circle cx="235" cy="180" r="23" fill="none" stroke="#ddf49b" stroke-opacity=".4"/>
+        <g fill="#8aa596"><circle cx="148" cy="106" r="5"/><circle cx="342" cy="308" r="5"/><circle cx="73" cy="126" r="3"/><circle cx="205" cy="337" r="3"/><circle cx="392" cy="242" r="3"/></g>
+        <g fill="#b4c6b8" font-size="10" font-family="monospace"><text x="41" y="329">QUESTION</text><text x="246" y="168">PATTERN</text><text x="312" y="64">INSIGHT</text></g>
+      </svg>
+      <div class="art-bottomline"><span class="art-caption">Curiosity → evidence → clarity</span><span class="art-monogram">RW.</span></div>
+    </div>
+  </section>
+  <div class="focus-strip" aria-label="Areas of interest"><span>MY FOCUS</span><p>Business questions <i aria-hidden="true">✳</i> Data exploration <i aria-hidden="true">✳</i> Clear communication</p></div>
+  <section class="story" aria-labelledby="story-heading">
+    <div><p class="eyebrow">01 / A LITTLE CONTEXT</p><h2 id="story-heading">Curious by nature.<br>Practical by choice.</h2></div>
+    <div class="story-copy"><p>What is driving a change in performance? Which patterns deserve a closer look? How can an analysis help someone decide what to do next?</p><p>Those are the questions that draw me to analytics. Through my coursework, I'm building a foundation in working with data at different scales, exploring evidence, and explaining what it means in a business context.</p><p>I care about the entire process: starting with the right question, checking the data, and communicating findings with their limitations.</p></div>
+  </section>
+  <section class="toolkit" id="my-toolkit" aria-labelledby="toolkit-heading">
+    <div class="section-heading"><div><p class="eyebrow">02 / MY TOOLKIT IN PROGRESS</p><h2 id="toolkit-heading">Learning with purpose.</h2></div><p>Four areas I'm exploring.<br>One goal: make the analysis useful.</p></div>
+    <div class="skill-grid">
+      <article class="skill-card"><div class="card-top"><span class="skill-icon" aria-hidden="true">{ }</span><span class="card-number">01</span></div><h3>Code & explore</h3><p>Using Python to organize data, investigate patterns, and turn questions into reproducible analysis.</p><div class="skill-tags"><span>Python</span><span>Data analysis</span></div></article>
+      <article class="skill-card"><div class="card-top"><span class="skill-icon" aria-hidden="true">▤</span><span class="card-number">02</span></div><h3>Query & scale</h3><p>Learning how SQL and Apache Spark make structured data accessible, from a single table to larger datasets.</p><div class="skill-tags"><span>SQL</span><span>Apache Spark</span></div></article>
+      <article class="skill-card"><div class="card-top"><span class="skill-icon" aria-hidden="true">☁</span><span class="card-number">03</span></div><h3>Build in the cloud</h3><p>Understanding how cloud tools support scalable workflows and connect the pieces of an analytics process.</p><div class="skill-tags"><span>Cloud computing</span><span>Workflows</span></div></article>
+      <article class="skill-card"><div class="card-top"><span class="skill-icon" aria-hidden="true">↗</span><span class="card-number">04</span></div><h3>Explain the signal</h3><p>Bringing statistics and visualization together to communicate evidence clearly and put results in context.</p><div class="skill-tags"><span>Statistics</span><span>Visualization</span></div></article>
+    </div>
+  </section>
+  <section class="approach" aria-labelledby="approach-heading"><div class="section-heading"><div><p class="eyebrow">03 / HOW I THINK</p><h2 id="approach-heading">A question-first approach.</h2></div></div><ol class="process"><li><span class="process-number">01</span><h3>Ask</h3><p>Define the business question and what a useful answer would look like.</p></li><li><span class="process-number">02</span><h3>Explore</h3><p>Check the data, look for patterns, and challenge the first explanation.</p></li><li><span class="process-number">03</span><h3>Explain</h3><p>Make the findings understandable, including what the data cannot tell us.</p></li><li><span class="process-number">04</span><h3>Apply</h3><p>Connect the evidence to a practical recommendation or a better next question.</p></li></ol></section>
+  <section class="next-chapter" aria-labelledby="career-heading"><div><p class="eyebrow">04 / THE NEXT CHAPTER</p><h2 id="career-heading">Better decisions.<br>Real business impact.</h2><p>My goal is to become a data analyst or business analyst, combining technical skills with an understanding of business needs. I'm interested in improving operations, understanding customer behavior, and measuring performance.</p></div><div class="career-note"><span aria-hidden="true">↗</span><h3>Keep building.<br>Keep asking why.</h3><p>This portfolio is a record of my learning—one project, one question, and one insight at a time.</p></div></section>
+  <footer class="about-footer"><span>RICHARD WU</span><p>Curiosity is the starting point.</p><a href="#intro-heading">Back to top ↑</a></footer>
+</div>
+```
