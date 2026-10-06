@@ -4,11 +4,10 @@ project:
 website:
   title: "Richard Wu"
   navbar:
-      left:
+    left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About You
+      - about.qmd
       - href: projects.qmd
         text: Projects
       - href: cv.qmd
@@ -21,10 +20,9 @@ resources:
 
 format:
   html:
+    anchor-sections: false
     theme:
       - cosmo
       - brand
     css: styles.css
     toc: true
-
-
